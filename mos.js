@@ -50,6 +50,7 @@ function start_experiment() {
     if (set_num == "1") {
         method_paths.push(wav_dir + "set" + set_num + "/method1.list");
         method_paths.push(wav_dir + "set" + set_num + "/method2.list");
+        method_paths.push(wav_dir + "set" + set_num + "/method3.list");
     } else if (set_num == "2") {
         method_paths.push(wav_dir + "set" + set_num + "/method1.list");
         method_paths.push(wav_dir + "set" + set_num + "/method2.list");
