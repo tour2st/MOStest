@@ -65,6 +65,7 @@ function start_experiment() {
     */
 
     file_list = makeFileList(method_paths);
+    console.log(file_list)
     outfile = name + "_set" + set_num + ".csv";
     scores = (new Array(file_list.length)).fill(0);
     eval = document.getElementsByName("eval");
