@@ -61,7 +61,7 @@ function start_experiment() {
     /*
         end
     */
-
+    console.log(method_paths)
     file_list = makeFileList(method_paths);
     console.log(file_list)
     outfile = name + "_set" + set_num + ".csv";
